@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(0,12,36);
+background: linear-gradient(223deg, rgba(0,12,36,1) 0%, rgba(0,254,255,1) 100%);
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+#Log-home{
+    width: 100%;
+    height: 100vh;
+}
+.login-head h1{
+    font-family: 'Neuton',sans-serif;
+}
+.input-group{
+    padding: 0 50px;
+}
+.login-img{
+    height: 100vh;
+    padding-top: 150px;
+}
+.logo-img img{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 100px;
+}
+.remember-me{
+    padding: 0 50px;
+}
+.remember-me label{
+    margin: 0 5px;
+}
+.login-btn button{
+    padding: 8px 50px;
+}
+.Login-content{
+    width: 100% ;
+    height: 600px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+.sign-up{
+    margin-top: 20px;
+}
+.sign-logo{
+    font-size: 30px;
+}
+.sign-logo i{
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    padding: 10px;
+    border: 2px solid ;
+    border-radius: 50%;
+    color: #5489FF;
+    transition: .5s;
+}
+.sign-logo i:hover{
+    color: #fff;
+    background-color: #5489FF;
+    transform: translateY(-5px);
+}
+
+@media (max-width: 850px){
+    .login-img{
+        height: auto;
+    }
+    .Login-content{
+        margin-top: 10%;
+    }
+}
