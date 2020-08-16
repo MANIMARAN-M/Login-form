@@ -69,8 +69,11 @@ background-attachment: fixed;
 @media (max-width: 850px){
     .login-img{
         height: auto;
+        padding-top: 50px;
     }
     .Login-content{
         margin-top: 10%;
+        margin-bottom: 50px;
+
     }
 }

@@ -33,7 +33,7 @@ body{
 .login-btn button{
     padding: 8px 50px;
 }
-.Login-content{
+.Login-content{ 
     width: 80% ;
     height: 500px;
     border-radius: 10px;
@@ -42,18 +42,29 @@ body{
 .sign-up{
     margin-top: 20px;
 }
+
+
 @media (max-width: 850px){
     .login-img{
         height: auto;
-        padding-top: 150px;
+        padding-top: 50px;
     }
     .Login-content{
         margin-top: 10%;
         width: 100% ;
-        height: 500px;
-        display: grid;
-        place-items: center;
-        border-radius: 10px;
-        background-color: #fff;
+        margin-bottom: 50px;
+    }
+    .remember-me label{
+        font-size: small;
+        margin: 0 1px;
+    }
+    .forget-para p a{
+        font-size: small;
+    }
+    .forget-para {
+        width: 51%;
+    }
+    .remember-line{
+        width: 49%;
     }
 }
